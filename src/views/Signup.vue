@@ -85,9 +85,11 @@ export default {
   },
   computed: {
     comparePasswords() {
-      return this.password === this.confirmPassword
-        ? true
-        : `Passwords don't match`;
+      if (this.password === this.confirmPassword && this.password.length >= 6) {
+        return true;
+      } else {
+        return `Contraseña incorrecta o menor a 6 caracteres`;
+      }
     },
 
     error() {
