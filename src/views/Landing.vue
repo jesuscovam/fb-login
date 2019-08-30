@@ -6,8 +6,8 @@
       </v-flex>
       <v-flex xs12 sm6 offset-sm3 mt-3>
         <blockquote class="blockquote text-xs-center">
-          Es una aplicacbion SPA basica<br />
-          con autenticacion de Google Firebase
+          Es una aplicación SPA básica<br />
+          con autenticación de Google Firebase
         </blockquote>
       </v-flex>
       <v-flex xs12 sm6 offset-sm3 class="text-xs-center buttons" mt-5>
